@@ -210,3 +210,12 @@ h1 {
     font-family: sans-serif;
 
   }
+
+  /* stylising the footer */
+
+  footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
