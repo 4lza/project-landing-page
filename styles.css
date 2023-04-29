@@ -115,7 +115,7 @@ h1 {
     margin-bottom: 150px;
     border-radius: 10%;
     border: 2px solid #3882f6;
-    margin-right: 120px;
+    margin-right: 100px;
 }
 
 
@@ -198,7 +198,7 @@ h1 {
   .sign-up-sec {
     background-color: #3882f6;
     height: 200px;
-    width: 750px;
+    max-width: 750px;
     margin: 200px;
     border-radius: 1%;
     text-align: left;
@@ -208,8 +208,10 @@ h1 {
     color: #F9FAF8;
     gap: 50px;
     font-family: sans-serif;
-
+    margin-left: auto;
+    margin-right: auto;
   }
+
 
   /* stylising the footer */
 
