@@ -55,7 +55,9 @@ h1 {
     margin: 10px;
     font-family: sans-serif;
     color: #f9faf8;
-    font-size: 18px
+    font-size: 18px;
+    flex-shrink: 0;
+
 }
 
 .lbut {
@@ -78,6 +80,7 @@ h1 {
 .logocont {
     flex: auto;
     margin: 20px;
+    margin-left: 150px;
 }
 
 .navcont {
@@ -89,5 +92,42 @@ h1 {
   display: flex;
   gap: 10px;
   margin: 40px;
+  margin-bottom: 100px;
+  margin-right: 150px;
 
 }
+
+/* this is me positioning the header welcome, sec and button + placeholder image in its correct placeds */
+.htitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 150px;
+  margin-right: 40px;
+  height: 345px;
+
+}
+
+.imgh {
+    width: 500px;
+    height: 350px;
+    margin-bottom: 150px;
+    border-radius: 10%;
+    border: 2px solid #3882f6;
+    margin-right: 120px;
+}
+
+
+.top-body {
+    display: flex;
+    color: #F9FAF8;
+    text-align: left;
+    flex-direction: row;
+
+}
+
+.sec-text{
+    color: #E5E7EB;
+}
+
+/* this is my stylising the middle section with images and captions */
