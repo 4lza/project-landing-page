@@ -1,0 +1,93 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+
+/* this is removing the bullet points and underlines for links on header */
+ul {
+list-style: none;
+font-size: 18px;
+font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:active, a:hover {
+    color: #E5E7EB;
+}
+/* this is me setting the background for the header and footer */
+.head_tb, footer {
+    background-color: #1f2937;
+
+}
+
+/* this is my stylising the font and font colours of the footer and header */
+footer{
+    color: #E5E7EB;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;  
+    color:#f9faf8;
+    font-family: sans-serif;
+    margin: 10px
+}
+
+.sec-text {
+    color:#f9faf8;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 10px
+}
+
+/* this is me stylising the buttons */
+.tbut {
+    background-color: #3882f6;
+    padding: 10px;
+    width:200px;
+    height:49px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+    color: #f9faf8;
+    font-size: 18px
+}
+
+.lbut {
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
+    width:100px;
+    height:50px;
+    font-size: 18px;
+    color:#f9faf8;
+
+}
+
+/* this is me positioning the header/nav section and sizing everything correctly  */
+.logo {
+    border-radius: 15%;
+    width: 60px;
+}
+
+.logocont {
+    flex: auto;
+    margin: 20px;
+}
+
+.navcont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-right-links {
+  display: flex;
+  gap: 10px;
+  margin: 40px;
+
+}
