@@ -175,3 +175,23 @@ h1 {
   }
 
   /* stylising the quote section*/
+
+  .lower-body {
+    background-color: #E5E7EB ; 
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    font-family: sans-serif;
+  }
+
+  .quote {
+    max-width: 400px;
+  }
+
+  /* stylising the call to action and sign up part */
