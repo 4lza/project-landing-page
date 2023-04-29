@@ -105,6 +105,7 @@ h1 {
   margin-left: 150px;
   margin-right: 40px;
   height: 345px;
+  min-width: 500px;
 
 }
 
@@ -130,4 +131,47 @@ h1 {
     color: #E5E7EB;
 }
 
-/* this is my stylising the middle section with images and captions */
+/* this is me positioning the middle section with images and captions */
+
+.middle-body {
+ display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 190px;
+  gap: 20px;
+  margin: 100px;
+  font-family: sans-serif;
+}
+
+/*stylising the box images itself and captions (making sure theyre all aligned and do not shortern and lengthen with the page) */
+
+.fimg {
+    display: flex;
+    border: 2px solid #3882f6;
+    border-radius: 10%;;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-wrapper img {
+    width: 200px;
+    height: 170px;
+  }
+
+.image-wrapper p {
+    min-width: 200px;
+    text-align: center;
+}
+
+/* stylising the heading for the middle section */
+
+  h3 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  /* stylising the quote section*/
