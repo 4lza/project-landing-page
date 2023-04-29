@@ -195,3 +195,18 @@ h1 {
   }
 
   /* stylising the call to action and sign up part */
+  .sign-up-sec {
+    background-color: #3882f6;
+    height: 200px;
+    width: 750px;
+    margin: 200px;
+    border-radius: 1%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    gap: 50px;
+    font-family: sans-serif;
+
+  }
